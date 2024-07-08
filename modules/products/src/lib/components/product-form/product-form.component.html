@@ -1,0 +1,9 @@
+<form [formGroup]="form">
+    <label for="name">Name</label>
+    <input id="name" type="text" formControlName="name" />
+<br/>
+    <label for="name">EAN</label>
+    <input id="name" type="text" formControlName="ean" />
+
+    <button (click)="addProduct()">Add</button>
+</form>

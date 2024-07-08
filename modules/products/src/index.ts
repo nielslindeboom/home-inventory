@@ -1,2 +1,4 @@
-export * from './lib/products/products.component';
-export * from './lib/products/store';
+export * from './lib/domain';
+export * from './lib/components';
+export * from './lib/pages';
+export * from './lib/infrastructure';
